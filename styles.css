@@ -1,223 +1,218 @@
 /* TASK: Populate each style listed below to make the page look good */
 /* --------------- Einstellung für alle Elemente ---------------*/
 html * {
-    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+  /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
 }
 body {
-    background-image: url(bg_hm.gif);
-    /*background-repeat: repeat-x;*/
-    /*background-position: top;*/
-    background-color: #A3C8E5;
-
-
+  background-image: url(bg_hm.gif);
+  /*background-repeat: repeat-x;*/
+  /*background-position: top;*/
+  background-color: #a3c8e5;
 }
 /* --------------- page ---------------*/
 #page {
-    width: 60%;
-    margin: 0 auto;
+  width: 60%;
+  margin: 0 auto;
 }
 /* --------------- Header ---------------*/
 #cheader {
-    width: 900px;
-    height: 300px;
-    background-image: url(./images/bg_cheader.jpg);
-    background-repeat: no-repeat;
-    position: relative;
-    top: 80px;
-    left: 200px;
-    background-position: center top;
-    background-size: contain;
-    margin: 60px auto 0 auto;
-    overflow: visible;
-    padding-bottom: 0;*/
+  width: 900px;
+  height: 300px;
+  background-image: url(./images/bg_cheader.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  top: 80px;
+  background-position: center top;
+  background-size: contain;
+  margin: 60px auto 0 auto;
+  overflow: visible;
+  padding-bottom: 0;
 }
 #logo {
-    background-image: url(./images/communitylive.gif);
-    width: 200px;
-    height: 60px;
-    position: absolute;
-    top: 20px;
-    left: 30px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    
+  background-image: url(./images/communitylive.gif);
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 #hm {
-    float: left;
+  float: left;
 }
 #hm ul {
-    list-style: none;
-    margin-top: 25px;
-    margin-left:25px
+  list-style: none;
+  margin-top: 25px;
+  margin-left: 25px;
 }
 
 #hm ul li {
-    float: left;
-    margin-right: 3px;
-    position: relative;
-    top: -55px;
-    background-image: url(./images/bg_hm.gif);
-    width: 97px;
-    height: 20px;
-    text-align: center;
-    padding-top: 10px;
-    left: 2x;
-    
+  float: left;
+  margin-right: 3px;
+  position: relative;
+  top: -55px;
+  background-image: url(./images/bg_hm.gif);
+  width: 97px;
+  height: 20px;
+  text-align: center;
+  padding-top: 10px;
+  left: 2x;
 }
 #hm ul li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 #hm ul li a.active {
 }
 #slogan {
-    clear: left;
-    float: left;
-    width: 180px;
+  clear: left;
+  float: left;
+  width: 180px;
 }
 #slogan p {
-    clear: left;
-    font-size: 16px;
-    text-align: right;
-    color:white
+  clear: left;
+  font-size: 16px;
+  text-align: right;
+  color: white;
 }
 
 #slogan h1 {
-    font-size: 17px;
-    float: left;
-    color: #5186AC;
-    margin-left: 18px;
+  font-size: 17px;
+  float: left;
+  color: #5186ac;
+  margin-left: 18px;
 }
 #search {
-    clear: left;
-    float: left;
+  clear: left;
+  float: left;
 }
 #search input {
-    margin: 15px 32px;
-    border: none;
-    height: 20px;
-    font-size: 14px;
-    width: 130PX;
-    position: relative;
-    top: -2px;
+  margin: 15px 32px;
+  border: none;
+  height: 20px;
+  font-size: 14px;
+  width: 130px;
+  position: relative;
+  top: -2px;
 }
 /* --------------- content ---------------*/
 #ccontent {
 }
 #leftmenue {
-    float: left;
-    clear: left;
-    width: 300px;
-    margin-left: 25px;
-    height: 500px;
+  float: left;
+  clear: left;
+  width: 300px;
+  margin-left: 25px;
+  height: 500px;
 }
 #leftmenue h2 {
-    text-align: center;
-    text-transform: lowercase;
-    color: #E6784C;
-    padding-top: 18%;
+  text-align: center;
+  text-transform: lowercase;
+  color: #e6784c;
+  padding-top: 18%;
 }
 #leftmenue ul {
 }
 #leftmenue ul li {
-    list-style-type: none;
-    line-height: 2;
-    color: #666666;
-    text-align: right;
-    margin-right: 55px;
+  list-style-type: none;
+  line-height: 2;
+  color: #666666;
+  text-align: right;
+  margin-right: 55px;
 }
 #leftmenue ul li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 #leftmenue ul li a:hover {
 }
 #leftmenue ul li a:hover.active,
 #leftmenue ul li a.active {
-    color: #E6784C;
+  color: #e6784c;
 }
 #hpv24 {
-    clear: both;
-    position: relative;
-    top: -55px;
-    margin-left: 18px;
+  clear: both;
+  position: relative;
+  top: -55px;
+  margin-left: 18px;
 }
 #hpv24 a {
 }
 #content {
-    background-color: white;
-    height: 650px;
-    width: 900px;
-    border-radius: 2%;
+  background-color: white;
+  height: 650px;
+  width: 900px;
+  border-radius: 2%;
 }
 #content h1 {
-    text-transform: lowercase;
-    color: #E6784C;
-    font-weight: lighter;
-    padding-top: 3%;
+  text-transform: lowercase;
+  color: #e6784c;
+  font-weight: lighter;
+  padding-top: 3%;
 }
 #content h2 {
 }
 #content p {
-    clear: right;
-    margin-left: 25%;
-    color: #666666;
-    margin-right: 3%;
-    line-height: 1.5;   
+  clear: right;
+  margin-left: 25%;
+  color: #666666;
+  margin-right: 3%;
+  line-height: 1.5;
 }
 #content a {
-    color: #E6784C;
+  color: #e6784c;
 }
 #content a:hover {
 }
 #content #links {
-    float: left;
-    text-transform: lowercase;
-    margin-left: 10%;
-    font-size: 13px;
+  float: left;
+  text-transform: lowercase;
+  margin-left: 10%;
+  font-size: 13px;
 }
 #content #ressourcen {
-    float: left;
-    text-transform: lowercase;
-    margin-left: 10%;
-    font-size: 13px;
+  float: left;
+  text-transform: lowercase;
+  margin-left: 10%;
+  font-size: 13px;
 }
 #content #links ul,
 #content #ressourcen ul {
 }
 #content #links ul li,
 #content #ressourcen ul li {
-    text-transform: capitalize;
-    list-style-image: url(./images/pointer01.gif);
+  text-transform: capitalize;
+  list-style-image: url(./images/pointer01.gif);
 }
 #content #links ul li a,
 #content #ressourcen ul li a {
-    color: #7EA22E;
-    font-size: 12px;
+  color: #7ea22e;
+  font-size: 12px;
 }
 #content #links ul li a:hover,
 #content #ressourcen ul li a:hover {
 }
 /* --------------- footer ---------------*/
 #footer {
-    clear: left;
-    float: left;
+  clear: left;
+  float: left;
 }
 #copyright {
-    float: left;
+  float: left;
 }
 #fmenue {
-    float: right;
+  float: right;
 }
 #fmenue ul {
-    float: left;;
-    margin-left: 115px;
-    position: relative;
-    top: -12px;
+  float: left;
+  margin-left: 115px;
+  position: relative;
+  top: -12px;
 }
 #fmenue ul li {
-    float: left;
-    list-style-type: none;
-    margin-right: 8px;
+  float: left;
+  list-style-type: none;
+  margin-right: 8px;
 }
 #fmenue ul li a {
-    text-decoration: none;
+  text-decoration: none;
 }
